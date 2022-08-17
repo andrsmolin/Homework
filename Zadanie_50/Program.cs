@@ -28,7 +28,7 @@ void ChoiceElement(double[,] array)
     }
     else
     {
-        Console.Write(array[row - 1, column - 1]);
+        Console.Write("Искомый элемент " + array[row - 1, column - 1]);
     }
 }
 void FillArray(double[,] array, int rows, int columns)
